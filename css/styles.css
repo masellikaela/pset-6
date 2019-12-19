@@ -1,3 +1,5 @@
+
+}
 body {
     margin: auto;
     width: 1224px;
@@ -41,7 +43,10 @@ canvas {
   margin-right: 100px;
   margin-top: 3%;
 }
-
+form {
+   font: bold 2.2em "Verdana";
+  font-size: 20px;
+}
 .header hr {
   width: 80%;
 }
@@ -62,33 +67,9 @@ canvas {
     width: 512px;
 }
 
-#output-1,
-#output-3,
-#sample-1,
-#sample-3 {
-  height: 128px;
-}
-
-#output-6,
-#output-7,
-#sample-6,
-#sample-7 {
-  height: 256px;
-}
-
-#output-2,
-#output-4,
-#output-5,
-#output-6,
-#output-7,
-#output-8,
-#sample-2,
-#sample-4,
-#sample-5,
-#sample-6,
-#sample-7,
-#sample-8 {
+#output-1 {
   height: 512px;
+  width: 345px;
 }
 
 .exercise div {
