@@ -77,3 +77,11 @@ canvas {
 .exercise div {
   text-align: center;
 }
+
+.not-done {
+  color: black;
+}
+
+.done {
+  color: green;
+}
