@@ -3,7 +3,6 @@ window.onload = function() {
 }
 
 const items = [];
-
 const additems = function() {
   const text = document.getElementById("textbox").value;
 
