@@ -31,7 +31,7 @@ text-align: center;
   padding: 10px;
   font-family: Verdana;
   font-size: 20px;
-  color: #f1daf5;
+  color: #741885;
   background-color: lightgrey;
   border-color: #f1daf5;
 }
@@ -121,7 +121,7 @@ hr {
 
 h3 {
   color: #f1daf5;
-  font-align: center;
+  text-align: center;
   font-size: 30px;
 }
 p {
