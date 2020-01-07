@@ -1,7 +1,7 @@
 let elements = []
 var add = document.getElementById("add_button");
 var row = document.getElementsByClassName("row");
-let list_item = document.getElementsByClassName("to_do")
+let list_item = document.getElementsByClassName("toDo")
 let priority_button = document.getElementsByClassName("priority_button");
 let complete_button = document.getElementsByClassName("complete_button");
 let remove_button = document.getElementsByClassName("remove_button");
@@ -18,7 +18,7 @@ const create_item = function() {
   if (input === "") {
   }
   else {
-      let to_do = {
+      let toDo = {
           task: input,
           priority: false,
           complete: false,
@@ -27,8 +27,8 @@ const create_item = function() {
           html_row: null,
           html_remove_button: null
       }
-      elements.push(to_do);
-      let index = elements.indexOf(to_do);
+      elements.push(toDo);
+      let index = elements.indexOf(toDo);
 
       elements[index].htmlRow = document.createElement("tr");
       elements[index].htmlRow.setAttribute("class", "row");
