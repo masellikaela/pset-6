@@ -92,12 +92,12 @@ const finish_item = function() {
          elements[x].complete = true;
        }
        else if (elements[x].complete == true) {
-         completeButton[x].style.backgroundColor = "black";
-         completeButton[x].style.color = "#A4FFA4"
-         completeButton[x].style.borderColor = "#A4FFA4"
+         completeButton[x].style.backgroundColor = "741885";
+         completeButton[x].style.color = "#f1daf5"
+         completeButton[x].style.borderColor = "#f1daf5"
          listItem[x].style.setProperty("text-decoration", "none");
          listItem[x].style.backgroundColor = "#741885";
-         listItem[x].style.color = "#A4FFA4";
+         listItem[x].style.color = "#f1daf5";
          elements[x].complete = false;
        }
      };
@@ -128,7 +128,7 @@ const prioritize_item = function() {
       }
       else if (elements[z].priority) {
         element_prioritize = tableRow[z]
-        priorityButton[z].style.backgroundColor = "black";
+        priorityButton[z].style.backgroundColor = "741885";
         priorityButton[z].style.color = "#A4FFA4";
         priorityButton[z].style.borderColor = "#A4FFA4";
         tableRow[elements.length - 1].after(element_prioritize);
