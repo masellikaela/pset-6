@@ -22,7 +22,7 @@ text-align: center;
   border-radius: 25px;
   font-size: 29px;
   background-color: lightgrey;
-  border-color: black;
+  border-color: #f1daf5;
 }
 .button_add {
   border-radius: 25px;
@@ -32,8 +32,8 @@ text-align: center;
   font-family: Verdana;
   font-size: 20px;
   color: #f1daf5;
-  background-color: lightslategrey;
-  border-color: black;
+  background-color: lightgrey;
+  border-color: #f1daf5;
 }
 table {
     margin-bottom: auto;
