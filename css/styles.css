@@ -1,19 +1,12 @@
 .title {
-font-family: "Courier New", Courier, monospace;
-font-size: 35px;
-letter-spacing: 0.6px;
-word-spacing: 6px;
-color: #A4FFA4;
-font-weight: 400;
-text-decoration: none;
-font-style: italic;
-font-variant: small-caps;
-text-transform: capitalize;
+font-family: Verdana;
+font-size: 70px;
+color: white;
 text-align: center;
 }
 
 .divider {
-  color: #A4FFA4;
+  color: #f1daf5;
 }
 
 .user_input {
@@ -27,27 +20,18 @@ text-align: center;
   padding: 2px;
   border-width: 3px;
   border-radius: 25px;
-  font-family: monospace;
-  font-size: 25px;
-  background-color: lightslategrey;
+  font-size: 29px;
+  background-color: lightgrey;
   border-color: black;
 }
 .button_add {
   border-radius: 25px;
-  border-style: ridge;
   border-width: 3px;
   width: 5%;
   padding: 10px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  letter-spacing: 0.6px;
-  word-spacing: 6px;
-  color: #A4FFA4;
-  font-weight: 400;
-  text-decoration: none;
-  font-style: italic;
-  font-variant: small-caps;
-  text-transform: capitalize;
+  font-family: Verdana;
+  font-size: 20px;
+  color: #f1daf5;
   background-color: lightslategrey;
   border-color: black;
 }
@@ -61,29 +45,22 @@ table {
     border-radius: 25px;
     background-color: white;
     font-family: sans-serif;
-    background: #f6e6b4;
-    background: -moz-linear-gradient(top, #f6e6b4 0%, #ed9017 100%);
-    background: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 );
+    background:white;
 }
 
  td {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Verdana;
   font-size: 16px;
   letter-spacing: 0.6px;
   word-spacing: 6px;
-  color: #A4FFA4;
+  color: #f1daf5;
   font-weight: 400;
-  text-decoration: none;
-  font-style: italic;
-  font-variant: small-caps;
-  text-transform: capitalize;
 }
 .to_do {
   font-family: sans-serif;
   text-align: center;
   border: 2px solid;
-  background-color: black;
+  background-color: #8f1ca3;
   font-size: 25px;
   border-radius: 5px;
 }
@@ -99,43 +76,43 @@ table {
 .priority_button {
     width: 40px;
     text-align: center;
-    background-color: black;
+    background-color: #8f1ca3;
     border: 2px solid;
     border-radius: 5px;
 }
 .priority_button:hover {
     background-color: yellow;
     color: black;
-    border-color: black;
+    border-color: white;
 }
 .complete_button {
     align: left;
     width: 40px;
     text-align: center;
-    background-color: black;
+    background-color: #8f1ca3;
     border-radius: 5px;
     border: 2px solid;
 }
 .complete_button:hover {
     background-color: lightgreen;
     color: black;
-    border-color: black;
+    border-color: white;
 }
 .remove_button {
     align: left;
     width: 40px;
     text-align: center;
-    background-color: black;
+    background-color: #8f1ca3;
     border: 2px solid;
     border-radius: 5px;
 }
 .remove_button:hover {
     background-color: #ff4040;
     color: black;
-    border-color: black;
+    border-color: white;
 }
 body {
-  background-color: #161616;
+  background-color: #8f1ca3;
 
 }
 hr {
@@ -143,15 +120,9 @@ hr {
 }
 
 p {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Verdana;
   font-size: 16px;
-  letter-spacing: 0.6px;
-  word-spacing: 6px;
-  color: #A4FFA4;
+  color: #f1daf5;
   font-weight: 400;
-  text-decoration: none;
-  font-style: italic;
-  font-variant: small-caps;
-  text-transform: capitalize;
   text-align: center;
 }
