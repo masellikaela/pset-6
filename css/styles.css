@@ -26,7 +26,7 @@ table {
     width: 800px;
     margin-top: 22px;
     border-spacing: 10px;
-    background-color: black;
+    background-color: grey;
     font-family: sans-serif;
 }
 .toDo {
@@ -48,7 +48,7 @@ table {
     border: 2px solid;
 }
 .priority_button:hover {
-    background-color: blue;
+    background-color: lightblue;
 }
 .complete_button {
     align: left;
