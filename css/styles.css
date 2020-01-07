@@ -94,7 +94,7 @@ table {
     border: 2px solid;
 }
 .complete_button:hover {
-    background-color: lightgreen;
+    background-color: lightblue;
     color: black;
     border-color: white;
 }
@@ -119,6 +119,11 @@ hr {
   width: 90%;
 }
 
+h3 {
+  color: #f1daf5;
+  font-align: center;
+  font-size: 30px;
+}
 p {
   font-family: Verdana;
   font-size: 16px;
