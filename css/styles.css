@@ -33,7 +33,7 @@ table {
   font-family: serif;
   text-align: center;
   border: 2px solid;
-  background-color: white;
+  background-color: grey;
   font-size: 25px;
 }
 }
@@ -44,7 +44,7 @@ table {
 .priority_button {
     width: 40px;
     text-align: center;
-    background-color: white;
+    background-color: grey;
     border: 2px solid;
 }
 .priority_button:hover {
