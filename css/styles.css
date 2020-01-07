@@ -1,11 +1,11 @@
 body {
-  background-color: MidnightBlue;
+  background-color: #8e4585;
 }
 hr{
   margin-top: 51px;
 }
 .title {
-  font-family: georgia;
+  font-family: Verdana;
   font-size: 50px;
   color: white;
   width: 500px;
@@ -15,8 +15,8 @@ hr{
 }
 .todo_header{
   text-align: center;
-  font-family: georgia;
-  font-size: 30px;
+  font-family: Verdana;
+  font-size: 27px;
   color: white;
 }
 table {
@@ -29,7 +29,7 @@ table {
     background-color: black;
     font-family: sans-serif;
 }
-.to_do {
+.toDo {
   font-family: serif;
   text-align: center;
   border: 2px solid;
@@ -48,17 +48,17 @@ table {
     border: 2px solid;
 }
 .priority_button:hover {
-    background-color: yellow;
+    background-color: blue;
 }
 .complete_button {
     align: left;
     width: 40px;
     text-align: center;
-    background-color: LimeGreen;
+    background-color: Green;
     border: 2px solid;
 }
 .complete_button:hover {
-    background-color: MidnightBlue;
+    background-color: #8e4585;
 }
 .remove_button {
     align: left;
@@ -68,7 +68,7 @@ table {
     border: 2px solid;
 }
 .remove_button:hover {
-    background-color: MidnightBlue;
+    background-color: #8e4585;
 }
 .input {
   text-align: center;
