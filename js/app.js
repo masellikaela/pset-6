@@ -84,11 +84,11 @@ const finish_item = function() {
        if (elements[x].complete == false) {
          finish = true;
          listItem[x].style.setProperty("text-decoration", "line-through");
-         listItem[x].style.backgroundColor = "#baff66";
-         completeButton[x].style.backgroundColor = "#baff66";
-         listItem[x].style.color = "black";
-         completeButton[x].style.color = "black";
-         completeButton[x].style.borderColor = "black";
+         listItem[x].style.backgroundColor = "#f1daf5";
+         completeButton[x].style.backgroundColor = "#f1daf5";
+         listItem[x].style.color = "#741885";
+         completeButton[x].style.color = "#741885";
+         completeButton[x].style.borderColor = "#741885";
          elements[x].complete = true;
        }
        else if (elements[x].complete == true) {
@@ -114,9 +114,9 @@ const prioritize_item = function() {
       if (elements[z].priority == false) {
         element_prioritize = tableRow[z]
         prioritize = true;
-        priorityButton[z].style.backgroundColor = "#fff98a";
-        priorityButton[z].style.color = "black";
-        priorityButton[z].style.borderColor = "black";
+        priorityButton[z].style.backgroundColor = "#f1daf5";
+        priorityButton[z].style.color = "#741885";
+        priorityButton[z].style.borderColor = "#741885";
         tableRow[0].before(element_prioritize);
         elements[z].priority = true;
 
