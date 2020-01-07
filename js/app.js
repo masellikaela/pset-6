@@ -96,7 +96,7 @@ const finish_item = function() {
          completeButton[x].style.color = "#A4FFA4"
          completeButton[x].style.borderColor = "#A4FFA4"
          listItem[x].style.setProperty("text-decoration", "none");
-         listItem[x].style.backgroundColor = "black";
+         listItem[x].style.backgroundColor = "#741885";
          listItem[x].style.color = "#A4FFA4";
          elements[x].complete = false;
        }
